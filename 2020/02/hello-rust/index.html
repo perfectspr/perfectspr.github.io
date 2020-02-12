@@ -30,7 +30,7 @@
   
   <link rel="stylesheet" href="https://perfectspr.github.io/css/style.min.fb1db633d376e7c1bf6af508f2dcfe64b91bb3197212ad4276e8ca18995955f3.css">
   
-  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.18.1/styles/default.min.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.18.1/styles/darcula.min.css">
   <script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.18.1/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
@@ -45,7 +45,7 @@
 <meta itemprop="description" content="Rust开发环境搭建">
 <meta itemprop="datePublished" content="2020-02-09T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2020-02-09T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="502">
+<meta itemprop="wordCount" content="513">
 
 
 
@@ -262,7 +262,7 @@
     </span>
         <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/2020/02/hello-rust/#comments"
             class="article-comment-link">评论</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 502字</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 513字</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 2分 </span>
       </div>
     </div>
@@ -270,33 +270,33 @@
       <p>最近收到许多Rust相关推荐文章，看起来很诱人，准备开始学习Rust。</p>
 <h3 id="mac开发环境搭建">Mac开发环境搭建</h3>
 <p>安装Rust工具包Restup:</p>
-<pre><code class="language-bash">curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+<pre><code class="language-shell">$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 </code></pre>
 <p>安装完成后，将cargo可执行目录放到Path环境变量，然后检查cargo的版本。</p>
-<pre><code class="language-bash">echo 'export PATH=$HOME/.cargo/bin:$PATH' &gt;&gt; ~/.bash_profile
-. ~/.bash_profile
-cargo --version
+<pre><code class="language-shell">$ echo 'export PATH=$HOME/.cargo/bin:$PATH' &gt;&gt; ~/.bash_profile
+$ . ~/.bash_profile
+$ cargo --version
 </code></pre>
 <p>cargo是Rust的构建工具，类似npm和maven. cargo的包叫做crate(箱子). <a href="https://crates.io/">https://crates.io/</a>.
 没有VPN的话，建议用清华的源:</p>
-<pre><code class="language-bash">echo 'export RUSTUP_DIST_SERVER=https://mirrors.tuna.tsinghua.edu.cn/rustup' &gt;&gt; ~/.bash_profile
-. ~/.bash_profile
+<pre><code class="language-shell">$ echo 'export RUSTUP_DIST_SERVER=https://mirrors.tuna.tsinghua.edu.cn/rustup' &gt;&gt; ~/.bash_profile
+$ . ~/.bash_profile
 </code></pre>
 <p>安装Vim插件coc-rls. <a href="https://github.com/neoclide/coc.nvim">Coc.nvim</a>目前是我最喜欢的Vim自动完成插件, 通过Language-Server它可以支持大部分编程语言。语法高亮插件用<a href="https://github.com/sheerun/vim-polyglot">vim-polyglot</a>，它支持绝大部分语言的语法高亮。</p>
-<pre><code class="language-bash">:CocInstall coc-rls
+<pre><code class="language-text">:CocInstall coc-rls
 </code></pre>
 <h3 id="hello-world">Hello World</h3>
-<pre><code class="language-bash"># 创建项目
-cargo new hello-rust
-cd hello-rust
-cargo run
+<pre><code class="language-shell"># 创建项目
+$ cargo new hello-rust
+$ cd hello-rust
+$ cargo run
 </code></pre>
 <h3 id="添加依赖">添加依赖</h3>
 <p>打开Rust的项目配置文件Cargo.toml,加入以下依赖</p>
-<pre><code>ferris-says = &quot;1.1&quot;
+<pre><code class="language-toml">ferris-says = &quot;1.1&quot;
 </code></pre>
 <p>然后安装依赖:</p>
-<pre><code class="language-bash">cargo build
+<pre><code class="language-shell">$ cargo build
 </code></pre>
 <p>类似npm，此命令会在当前目录下生成Cargo.lock文件。Rust借鉴了现代语言的很多最佳实践,舒服:)</p>
 <h3 id="写个小程序">写个小程序</h3>
@@ -316,10 +316,10 @@ fn main() {
 }
 </code></pre>
 <p>然后运行</p>
-<pre><code class="language-bash">cargo run
+<pre><code class="language-shell">$ cargo run
 </code></pre>
 <p>输出以下内容：</p>
-<pre><code class="language-bash">----------------------------
+<pre><code class="language-shell">----------------------------
 | Hello fellow Rustaceans! |
 ----------------------------
               \
