@@ -5,10 +5,19 @@
     <link>https://perfectspr.github.io/tags/</link>
     <description>Recent content in Tags on Peter&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 09 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Feb 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://perfectspr.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>我的知识手册</title>
+      <link>https://perfectspr.github.io/2020/02/my-handbook/</link>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://perfectspr.github.io/2020/02/my-handbook/</guid>
+      <description>折腾了一天，总算搭好了知识手册。以后技术相关的内容都会写到知识手册。这个博客只做简单记录。 发现github的raw文件无法显示，Readme</description>
+    </item>
     
     <item>
       <title>Hello Rust</title>
