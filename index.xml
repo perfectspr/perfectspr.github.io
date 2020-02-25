@@ -5,10 +5,28 @@
     <link>https://perfectspr.github.io/</link>
     <description>Recent content on Peter&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 15 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Feb 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://perfectspr.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Powershell 常用命令</title>
+      <link>https://perfectspr.github.io/2020/02/powershell/</link>
+      <pubDate>Tue, 25 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://perfectspr.github.io/2020/02/powershell/</guid>
+      <description>公司要求远程工作，不得已需要用Windows开发. 折腾了几天，基本上搞定了Windows下开发环境配置问题，其中Powershell成了Li</description>
+    </item>
+    
+    <item>
+      <title>开源PDF处理工具Poppler</title>
+      <link>https://perfectspr.github.io/2020/02/pdf-process/</link>
+      <pubDate>Sun, 16 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://perfectspr.github.io/2020/02/pdf-process/</guid>
+      <description>Poppler是一个开源的PDF渲染库, 用C++编写，许多免费的PDF处理软件都用它来渲染PDF文档。它同时提供了一套命令行工具用于管理PD</description>
+    </item>
     
     <item>
       <title>我的知识手册</title>

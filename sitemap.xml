@@ -4,41 +4,97 @@
   
   <url>
     <loc>https://perfectspr.github.io/categories/</loc>
-    <lastmod>2020-02-15T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://perfectspr.github.io/tags/handbook/</loc>
-    <lastmod>2020-02-15T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-25T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://perfectspr.github.io/</loc>
-    <lastmod>2020-02-15T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-25T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://perfectspr.github.io/posts/</loc>
-    <lastmod>2020-02-15T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-25T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://perfectspr.github.io/tags/powershell/</loc>
+    <lastmod>2020-02-25T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://perfectspr.github.io/2020/02/powershell/</loc>
+    <lastmod>2020-02-25T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://perfectspr.github.io/series/</loc>
-    <lastmod>2020-02-15T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-25T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://perfectspr.github.io/tags/</loc>
+    <lastmod>2020-02-25T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://perfectspr.github.io/categories/%E7%BC%96%E7%A8%8B/</loc>
+    <lastmod>2020-02-25T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://perfectspr.github.io/tags/jpg/</loc>
+    <lastmod>2020-02-16T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://perfectspr.github.io/tags/pdf/</loc>
+    <lastmod>2020-02-16T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://perfectspr.github.io/tags/poppler/</loc>
+    <lastmod>2020-02-16T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://perfectspr.github.io/categories/%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2020-02-16T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://perfectspr.github.io/2020/02/pdf-process/</loc>
+    <lastmod>2020-02-16T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://perfectspr.github.io/tags/handbook/</loc>
     <lastmod>2020-02-15T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -52,13 +108,6 @@
   </url>
   
   <url>
-    <loc>https://perfectspr.github.io/categories/%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2020-02-15T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://perfectspr.github.io/2020/02/hello-rust/</loc>
     <lastmod>2020-02-09T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -66,14 +115,14 @@
   </url>
   
   <url>
-    <loc>https://perfectspr.github.io/categories/rust/</loc>
+    <loc>https://perfectspr.github.io/tags/rust/</loc>
     <lastmod>2020-02-09T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://perfectspr.github.io/tags/rust/</loc>
+    <loc>https://perfectspr.github.io/categories/rust/</loc>
     <lastmod>2020-02-09T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
